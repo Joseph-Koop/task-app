@@ -1,0 +1,186 @@
+/* styles.css */
+
+:root{
+    --background: black;
+    --contrast: limegreen;
+    --highlight1: rgba(63, 14, 123, 1);
+    --highlight2: rgba(178, 29, 197, 1);
+    --highlight3: rgba(209, 146, 248, 1);
+    --hover1: rgba(24, 118, 43, 1);
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background);
+}
+
+
+
+
+.bm{
+    margin: 2rem;
+}
+
+.bp{
+    padding: 2rem;
+}
+
+.bp2{
+    padding: 1rem;
+}
+
+.strike{
+    text-decoration-line: line-through;
+}
+
+.hide{
+    display: none !important;
+}
+
+.tr{
+    text-align: right;
+}
+
+.highlight{
+    color: yellow;
+    font-weight: bold;
+}
+
+
+
+
+
+.button{
+    height: 3rem;
+    width: 6rem;
+    padding: 0 1rem;
+    background-color: var(--contrast);
+    border-radius: 20px;
+    border: 3px solid var(--highlight1);
+}
+
+.control-form{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--contrast);
+    border-radius: 20px;
+    border: 3px solid var(--highlight1);
+}
+
+.control-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.button:hover, .button-center button{
+    cursor: pointer;
+    background-color: var(--hover1);
+}
+
+.task-info p{
+    padding: 0.5rem;
+}
+
+.task-heading, .task-info{
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr 2fr 1fr 1fr 1fr;
+}
+
+.task-heading{
+    padding-top: 2rem;
+    border-top: 3px solid var(--highlight1);
+}
+
+.task-list{
+    display: flex;
+    justify-content: center;
+    max-width: calc(100vw - 4rem);
+    height: calc(100vh - 12rem);
+    background-color: var(--highlight1);
+}
+
+.task-list-inner-block{
+    background-color: var(--highlight3);
+    width: calc(100vw - 4rem);
+}
+
+h1{
+    background-color: var(--highlight2);
+}
+
+.column-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.add-form{
+    margin-bottom: 2rem;
+}
+
+.add-form form{
+    max-width: 400px;
+    border: 3px solid var(--highlight1);
+    padding: 1rem;
+}
+
+.label-input{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form label, form input, form select{
+    margin: 0.5rem;
+}
+
+form input, form select{
+    height: 1.5rem;
+}
+
+.button-center{
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+}
+
+.button-center button{
+    background-color: var(--contrast);
+    padding: 5px;
+}
+
+img{
+    max-height: 30px;
+}
+
+img.column-name{
+    visibility: hidden;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+.command-header{
+    display: flex;
+}
+
+.search-button{
+    background-color: var(--highlight1);
+    color: white;
+    margin-right: 1rem;
+    padding: 5px;
+}
+
+.search-button:hover{
+    cursor: pointer;
+}
