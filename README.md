@@ -1,9 +1,12 @@
 <!-- README.md -->
 
-Task Management Web App
-Joseph Koop
-GUI Programming
-March 1, 2024
+<strong>
+Task Management Web App <br>
+Joseph Koop <br>
+GUI Programming <br>
+March 1, 2024 <br>
+</strong>
+<br>
 
 The web app displays a list of tasks for the user. The user can add tasks, mark tasks as completed or pending, and delete tasks. They can also search for a task by its title, filter tasks by completion status, or sort tasks by id or priority level.
 
@@ -14,3 +17,8 @@ To change the completion status of a task, click the green checkmark on the righ
 To delete a task, click the delete icon next to the green checkmark. This will remove the task from the list.
 
 To sort or filter, simply change the option currently selected in the sort or filter bar. To search for a task, enter part of the title in the search bar, click search, and all matching tasks will be highlighted in yellow.
+
+<br>
+
+<strong>Link to Video:</strong><br>
+https://youtu.be/yzfYB4hYdqk
